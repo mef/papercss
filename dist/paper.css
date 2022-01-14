@@ -7,32 +7,32 @@
 html {
   --primary: #41403e;
   --secondary: #0071de;
-  --success: #86a361;
-  --warning: #ddcd45;
+  --success: #6b8e3e;
+  --warning: #dd9d06;
   --danger: #a7342d;
   --muted: #868e96;
   --primary-light: #c1c0bd;
   --secondary-light: #deefff;
-  --success-light: #d0dbc2;
-  --warning-light: #f5f0c6;
+  --success-light: #b6d195;
+  --warning-light: #fcd780;
   --danger-light: #f0cbc9;
   --muted-light: #e6e7e9;
   --primary-dark: black;
   --secondary-dark: black;
-  --success-dark: #374427;
-  --warning-dark: #746a15;
+  --success-dark: #1b2410;
+  --warning-dark: #483302;
   --danger-dark: black;
   --muted-dark: #313538;
   --primary-light-10: #5b5a57;
   --secondary-light-10: #128bff;
-  --success-light-10: #9fb681;
-  --warning-light-10: #e5d970;
+  --success-light-10: #86b24e;
+  --warning-light-10: #f9b71d;
   --danger-light-10: #cb453c;
   --muted-light-10: #a1a8ae;
   --primary-dark-10: #272625;
   --secondary-dark-10: #0057ab;
-  --success-dark-10: #6c844d;
-  --warning-dark-10: #cab925;
+  --success-dark-10: #506b2f;
+  --warning-dark-10: #ab7a05;
   --danger-dark-10: #7f2722;
   --muted-dark-10: #6c757d;
   --primary-shaded-50: #c1c0bd;
@@ -46,8 +46,8 @@ html {
   --black: black;
   --primary-text: #272625;
   --secondary-text: #0057ab;
-  --success-text: #6c844d;
-  --warning-text: #cab925;
+  --success-text: #506b2f;
+  --warning-text: #ab7a05;
   --danger-text: #7f2722;
   --muted-text: #6c757d;
   --shadow-color-regular: rgba(0, 0, 0, 0.2);
@@ -1758,7 +1758,7 @@ button.btn-success,
 button.btn-success:hover:active,
 .paper-btn.btn-success:hover:active,
 [type=button].btn-success:hover:active {
-  background-color: #b7c9a1;
+  background-color: #9ec171;
 }
 
 button.btn-warning,
@@ -1774,7 +1774,7 @@ button.btn-warning,
 button.btn-warning:hover:active,
 .paper-btn.btn-warning:hover:active,
 [type=button].btn-warning:hover:active {
-  background-color: #ede49b;
+  background-color: #fac74f;
 }
 
 button.btn-danger,
@@ -1851,38 +1851,38 @@ button.btn-success-outline,
 .paper-btn.btn-success-outline,
 [type=button].btn-success-outline {
   background-color: white;
-  border-color: #b7c9a1;
-  color: #6c844d;
+  border-color: #9ec171;
+  color: #506b2f;
 }
 button.btn-success-outline:hover,
 .paper-btn.btn-success-outline:hover,
 [type=button].btn-success-outline:hover {
-  background-color: #d0dbc2;
-  border-color: #86a361;
+  background-color: #b6d195;
+  border-color: #6b8e3e;
 }
 button.btn-success-outline:hover:active,
 .paper-btn.btn-success-outline:hover:active,
 [type=button].btn-success-outline:hover:active {
-  background-color: #b7c9a1;
+  background-color: #9ec171;
 }
 
 button.btn-warning-outline,
 .paper-btn.btn-warning-outline,
 [type=button].btn-warning-outline {
   background-color: white;
-  border-color: #ede49b;
-  color: #cab925;
+  border-color: #fac74f;
+  color: #ab7a05;
 }
 button.btn-warning-outline:hover,
 .paper-btn.btn-warning-outline:hover,
 [type=button].btn-warning-outline:hover {
-  background-color: #f5f0c6;
-  border-color: #ddcd45;
+  background-color: #fcd780;
+  border-color: #dd9d06;
 }
 button.btn-warning-outline:hover:active,
 .paper-btn.btn-warning-outline:hover:active,
 [type=button].btn-warning-outline:hover:active {
-  background-color: #ede49b;
+  background-color: #fac74f;
 }
 
 button.btn-danger-outline,
@@ -2650,14 +2650,14 @@ fieldset.form-group {
   background-color: var(--success-light);
 }
 .progress .bar.success.striped {
-  background: repeating-linear-gradient(45deg, #d0dbc2, #d0dbc2 0.25rem, #b7c9a1 0.25rem, #b7c9a1 0.5rem);
+  background: repeating-linear-gradient(45deg, #b6d195, #b6d195 0.25rem, #9ec171 0.25rem, #9ec171 0.5rem);
 }
 .progress .bar.warning {
   background-color: #41403e;
   background-color: var(--warning-light);
 }
 .progress .bar.warning.striped {
-  background: repeating-linear-gradient(45deg, #f5f0c6, #f5f0c6 0.25rem, #ede49b 0.25rem, #ede49b 0.5rem);
+  background: repeating-linear-gradient(45deg, #fcd780, #fcd780 0.25rem, #fac74f 0.25rem, #fac74f 0.5rem);
 }
 .progress .bar.danger {
   background-color: #41403e;
