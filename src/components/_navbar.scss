@@ -1,5 +1,6 @@
 nav {
   @include color('background-color', 'main-background');
+  align-items: baseline;
   display: flex;
   padding: 0.3rem;
   position: relative;
@@ -106,6 +107,15 @@ nav {
     h6 {
       margin: 0;
       margin-bottom: 0.2rem;
+    }
+    
+    h1 {
+      font-size: 1.8rem;
+      
+      a {
+        border-bottom: 0;
+        font-family: $header-font, sans-serif;
+      }
     }
   }
 
