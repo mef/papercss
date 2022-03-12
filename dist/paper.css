@@ -3202,8 +3202,7 @@ nav ul.inline li {
 }
 @media only screen and (max-width: 768px) {
   nav ul.inline li {
-    display: block;
-    margin: 1rem 0;
+    margin: 1rem 0.25rem;
   }
 }
 nav a {
