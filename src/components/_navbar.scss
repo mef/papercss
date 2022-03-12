@@ -77,18 +77,14 @@ nav {
     border-bottom-left-radius: 15px 3px;
     border-bottom-right-radius: 15px 5px;
     border-bottom-style: solid;
-    border-bottom-width: 5px;
+    border-bottom-width: 3px;
     padding-bottom: 0.1rem;
   }
 
   a:hover {
     @include color('border-color', 'primary-light');
     border-bottom-style: solid;
-    border-bottom-width: 5px;
-  }
-
-  ul.inline li a {
-    font-size: 1.3rem;
+    border-bottom-width: 3px;
   }
 
   ul.inline li::before {
