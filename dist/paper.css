@@ -1300,20 +1300,8 @@ table.table-alternating tbody tr:nth-of-type(even) {
   display: flex;
   flex-direction: column;
 }
-.collapsible:nth-of-type(1) {
-  border-top-color: #41403e;
-  border-top-color: var(--muted-light);
-  border-top-style: solid;
-  border-top-width: 1px;
-}
 .collapsible .collapsible-body {
-  border-bottom-color: #41403e;
-  border-bottom-color: var(--muted-light);
-  background-color: #41403e;
-  background-color: var(--white-dark-light-80);
   transition: all 235ms ease-in-out 0s;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
   margin: 0;
   max-height: 0;
   opacity: 0;
@@ -2401,7 +2389,7 @@ fieldset.form-group {
   top: 0;
   visibility: hidden;
   word-wrap: break-word;
-  z-index: 12;
+  z-index: 101;
 }
 .modal-bg {
   bottom: 0;
@@ -3226,17 +3214,14 @@ nav a {
   border-bottom-left-radius: 15px 3px;
   border-bottom-right-radius: 15px 5px;
   border-bottom-style: solid;
-  border-bottom-width: 5px;
+  border-bottom-width: 3px;
   padding-bottom: 0.1rem;
 }
 nav a:hover {
   border-color: #41403e;
   border-color: var(--primary-light);
   border-bottom-style: solid;
-  border-bottom-width: 5px;
-}
-nav ul.inline li a {
-  font-size: 1.3rem;
+  border-bottom-width: 3px;
 }
 nav ul.inline li::before {
   content: "";
