@@ -11,7 +11,7 @@
     padding: 0 0.75rem;
   }
 
-  input {
+  > input {
     display: none;
 
     &:checked + label {
@@ -26,7 +26,7 @@
     }
   }
 
-  label {
+  > label {
     @include color('color', 'primary');
     @include color('border-bottom-color', 'muted-light');
     border-bottom-style: solid;
