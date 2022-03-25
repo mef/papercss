@@ -8,31 +8,31 @@ html {
   --primary: #41403e;
   --secondary: #0071de;
   --success: #6b8e3e;
-  --warning: #dd9d06;
+  --warning: #ca8e00;
   --danger: #a7342d;
   --muted: #868e96;
   --primary-light: #c1c0bd;
   --secondary-light: #deefff;
   --success-light: #b6d195;
-  --warning-light: #fcd780;
+  --warning-light: #ffd164;
   --danger-light: #f0cbc9;
   --muted-light: #e6e7e9;
   --primary-dark: black;
   --secondary-dark: black;
   --success-dark: #1b2410;
-  --warning-dark: #483302;
+  --warning-dark: #312200;
   --danger-dark: black;
   --muted-dark: #313538;
   --primary-light-10: #5b5a57;
   --secondary-light-10: #128bff;
   --success-light-10: #86b24e;
-  --warning-light-10: #f9b71d;
+  --warning-light-10: #fdb200;
   --danger-light-10: #cb453c;
   --muted-light-10: #a1a8ae;
   --primary-dark-10: #272625;
   --secondary-dark-10: #0057ab;
   --success-dark-10: #506b2f;
-  --warning-dark-10: #ab7a05;
+  --warning-dark-10: #976a00;
   --danger-dark-10: #7f2722;
   --muted-dark-10: #6c757d;
   --primary-shaded-50: #c1c0bd;
@@ -47,7 +47,7 @@ html {
   --primary-text: #272625;
   --secondary-text: #0057ab;
   --success-text: #506b2f;
-  --warning-text: #ab7a05;
+  --warning-text: #976a00;
   --danger-text: #7f2722;
   --muted-text: #6c757d;
   --shadow-color-regular: rgba(0, 0, 0, 0.2);
@@ -1764,7 +1764,7 @@ button.btn-warning,
 button.btn-warning:hover:active,
 .paper-btn.btn-warning:hover:active,
 [type=button].btn-warning:hover:active {
-  background-color: #fac74f;
+  background-color: #ffc231;
 }
 
 button.btn-danger,
@@ -1860,19 +1860,19 @@ button.btn-warning-outline,
 .paper-btn.btn-warning-outline,
 [type=button].btn-warning-outline {
   background-color: white;
-  border-color: #fac74f;
-  color: #ab7a05;
+  border-color: #ffc231;
+  color: #976a00;
 }
 button.btn-warning-outline:hover,
 .paper-btn.btn-warning-outline:hover,
 [type=button].btn-warning-outline:hover {
-  background-color: #fcd780;
-  border-color: #dd9d06;
+  background-color: #ffd164;
+  border-color: #ca8e00;
 }
 button.btn-warning-outline:hover:active,
 .paper-btn.btn-warning-outline:hover:active,
 [type=button].btn-warning-outline:hover:active {
-  background-color: #fac74f;
+  background-color: #ffc231;
 }
 
 button.btn-danger-outline,
@@ -2647,7 +2647,7 @@ fieldset.form-group {
   background-color: var(--warning-light);
 }
 .progress .bar.warning.striped {
-  background: repeating-linear-gradient(45deg, #fcd780, #fcd780 0.25rem, #fac74f 0.25rem, #fac74f 0.5rem);
+  background: repeating-linear-gradient(45deg, #ffd164, #ffd164 0.25rem, #ffc231 0.25rem, #ffc231 0.5rem);
 }
 .progress .bar.danger {
   background-color: #41403e;
