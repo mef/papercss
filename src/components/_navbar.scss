@@ -66,6 +66,7 @@ nav {
     margin: 0 0.5rem;
 
     @include resp(small) {
+      display: block;
       margin: 1rem 0.25rem;
     }
   }
@@ -77,14 +78,14 @@ nav {
     border-bottom-left-radius: 15px 3px;
     border-bottom-right-radius: 15px 5px;
     border-bottom-style: solid;
-    border-bottom-width: 3px;
+    border-bottom-width: 2px;
     padding-bottom: 0.1rem;
   }
 
   a:hover {
     @include color('border-color', 'primary-light');
     border-bottom-style: solid;
-    border-bottom-width: 3px;
+    border-bottom-width: 2px;
   }
 
   ul.inline li::before {
@@ -108,8 +109,8 @@ nav {
       margin-bottom: 0.2rem;
     }
     
-    h1 {
-      font-size: 1.8rem;
+    h2 {
+      font-size: 1.6rem;
       
       a {
         border-bottom: 0;

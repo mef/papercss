@@ -3202,6 +3202,7 @@ nav ul.inline li {
 }
 @media only screen and (max-width: 768px) {
   nav ul.inline li {
+    display: block;
     margin: 1rem 0.25rem;
   }
 }
@@ -3214,14 +3215,14 @@ nav a {
   border-bottom-left-radius: 15px 3px;
   border-bottom-right-radius: 15px 5px;
   border-bottom-style: solid;
-  border-bottom-width: 3px;
+  border-bottom-width: 2px;
   padding-bottom: 0.1rem;
 }
 nav a:hover {
   border-color: #41403e;
   border-color: var(--primary-light);
   border-bottom-style: solid;
-  border-bottom-width: 3px;
+  border-bottom-width: 2px;
 }
 nav ul.inline li::before {
   content: "";
@@ -3240,10 +3241,10 @@ nav .nav-brand h6 {
   margin: 0;
   margin-bottom: 0.2rem;
 }
-nav .nav-brand h1 {
-  font-size: 1.8rem;
+nav .nav-brand h2 {
+  font-size: 1.6rem;
 }
-nav .nav-brand h1 a {
+nav .nav-brand h2 a {
   border-bottom: 0;
   font-family: "Patrick Hand SC", sans-serif;
 }
