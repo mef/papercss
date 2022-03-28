@@ -52,6 +52,8 @@ $number-columns: 12;
 
   @include resp(sm) {
     @include col-size(100%);
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
   }
 }
 
