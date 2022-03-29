@@ -1269,33 +1269,39 @@ table.table-alternating tbody tr:nth-of-type(even) {
 }
 
 .border-primary {
-  border-color: #41403e;
-  border-color: var(--primary);
+  border-left-color: #41403e;
+  border-left-color: var(--primary);
+  border-left-width: 6px;
 }
 
 .border-secondary {
-  border-color: #41403e;
-  border-color: var(--secondary);
+  border-left-color: #41403e;
+  border-left-color: var(--secondary);
+  border-left-width: 6px;
 }
 
 .border-success {
-  border-color: #41403e;
-  border-color: var(--success);
+  border-left-color: #41403e;
+  border-left-color: var(--success);
+  border-left-width: 6px;
 }
 
 .border-warning {
-  border-color: #41403e;
-  border-color: var(--warning);
+  border-left-color: #41403e;
+  border-left-color: var(--warning);
+  border-left-width: 6px;
 }
 
 .border-danger {
-  border-color: #41403e;
-  border-color: var(--danger);
+  border-left-color: #41403e;
+  border-left-color: var(--danger);
+  border-left-width: 6px;
 }
 
 .border-muted {
-  border-color: #41403e;
-  border-color: var(--muted);
+  border-left-color: #41403e;
+  border-left-color: var(--muted);
+  border-left-width: 6px;
 }
 
 .shadow {
