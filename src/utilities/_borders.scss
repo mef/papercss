@@ -60,6 +60,6 @@
 @each $colorName, $color in $colors {
   .border-#{$colorName} {
     @include color('border-left-color', #{$colorName});
-    border-left-width: 6px;
+    border-left-width: 8px;
   }
 }

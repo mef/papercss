@@ -1271,37 +1271,37 @@ table.table-alternating tbody tr:nth-of-type(even) {
 .border-primary {
   border-left-color: #41403e;
   border-left-color: var(--primary);
-  border-left-width: 6px;
+  border-left-width: 8px;
 }
 
 .border-secondary {
   border-left-color: #41403e;
   border-left-color: var(--secondary);
-  border-left-width: 6px;
+  border-left-width: 8px;
 }
 
 .border-success {
   border-left-color: #41403e;
   border-left-color: var(--success);
-  border-left-width: 6px;
+  border-left-width: 8px;
 }
 
 .border-warning {
   border-left-color: #41403e;
   border-left-color: var(--warning);
-  border-left-width: 6px;
+  border-left-width: 8px;
 }
 
 .border-danger {
   border-left-color: #41403e;
   border-left-color: var(--danger);
-  border-left-width: 6px;
+  border-left-width: 8px;
 }
 
 .border-muted {
   border-left-color: #41403e;
   border-left-color: var(--muted);
-  border-left-width: 6px;
+  border-left-width: 8px;
 }
 
 .shadow {
