@@ -973,7 +973,7 @@ pre code {
 html {
   color: #41403e;
   color: var(--primary);
-  font-family: "Neucha", sans-serif;
+  font-family: "Neucha", "Noteworthy Light", sans-serif;
   font-size: 20px;
 }
 
@@ -992,7 +992,7 @@ input,
 textarea,
 select,
 option {
-  font-family: "Neucha", sans-serif;
+  font-family: "Neucha", "Noteworthy Light", sans-serif;
 }
 
 h1,
@@ -1001,7 +1001,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Neucha", sans-serif;
+  font-family: "Neucha", "Noteworthy Light", sans-serif;
   font-weight: normal;
   text-transform: uppercase;
 }
@@ -3290,7 +3290,7 @@ nav .nav-brand h2 {
 }
 nav .nav-brand h2 a {
   border-bottom: 0;
-  font-family: "Neucha", sans-serif;
+  font-family: "Neucha", "Noteworthy Light", sans-serif;
 }
 @media only screen and (max-width: 768px) {
   nav .collapsible {

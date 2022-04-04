@@ -1,6 +1,6 @@
 html {
   @include color('color', 'primary');
-  font-family: $body-font, sans-serif;
+  font-family: $body-font, 'Noteworthy Light', sans-serif;
   font-size: $global-font-size;
 }
 
@@ -19,7 +19,7 @@ input,
 textarea,
 select,
 option {
-  font-family: $body-font, sans-serif;
+  font-family: $body-font, 'Noteworthy Light', sans-serif;
 }
 
 h1,
@@ -28,7 +28,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $header-font, sans-serif;
+  font-family: $header-font, 'Noteworthy Light', sans-serif;
   font-weight: normal;
   text-transform: uppercase;
 }
