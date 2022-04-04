@@ -991,6 +991,7 @@ td,
 input,
 textarea,
 select,
+optgroup,
 option {
   font-family: "Neucha", "Noteworthy Light", sans-serif;
 }
