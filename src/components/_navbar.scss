@@ -7,7 +7,7 @@ nav {
   width: 100%;
   z-index: 100;
 
-  @include resp(small) {
+  @include resp(medium) {
     display: block;
   }
 
@@ -65,7 +65,7 @@ nav {
     display: inline-block;
     margin: 0 0.5rem;
 
-    @include resp(small) {
+    @include resp(medium) {
       display: block;
       margin: 1rem 0.25rem;
     }
@@ -120,7 +120,7 @@ nav {
   }
 
   .collapsible {
-    @include resp(small) {
+    @include resp(medium) {
       width: 100%;
     }
   }
@@ -136,7 +136,7 @@ nav {
   .collapsible .collapsible-body {
     border: 0;
 
-    @include resp(null, $small-screen + 1px) {
+    @include resp(null, $medium-screen + 1px) {
       display: contents;
     }
   }
@@ -172,7 +172,7 @@ nav {
     right: 0;
     top: 0.2rem;
 
-    @include resp(small) {
+    @include resp(medium) {
       display: block;
     }
   }
