@@ -1159,7 +1159,6 @@ table {
   box-sizing: border-box;
   max-width: 100%;
   overflow-x: auto;
-  width: 100%;
 }
 @media only screen and (max-width: 480px) {
   table thead tr th {
@@ -1969,12 +1968,7 @@ button.btn-muted-outline:hover:active,
   display: flex;
   flex-direction: column;
   position: relative;
-  will-change: transform;
   word-wrap: break-word;
-}
-.card:hover {
-  transform: translate3d(0, 2px, 0);
-  box-shadow: 2px 8px 8px -5px rgba(0, 0, 0, 0.3);
 }
 .card .card-header,
 .card .card-footer {
