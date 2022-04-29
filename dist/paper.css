@@ -39,7 +39,7 @@ html {
   --primary-dark-10: #272625;
   --secondary-dark-10: #0057ab;
   --success-dark-10: #506b2f;
-  --warning-dark-10: #975c00;
+  --warning-dark-10: #643d00;
   --danger-dark-10: #7f2722;
   --muted-dark-10: #6c757d;
   --primary-shaded-50: #c1c0bd;
@@ -54,7 +54,7 @@ html {
   --primary-text: #272625;
   --secondary-text: #0057ab;
   --success-text: #506b2f;
-  --warning-text: #975c00;
+  --warning-text: #643d00;
   --danger-text: #7f2722;
   --muted-text: #6c757d;
   --shadow-color-regular: rgba(0, 0, 0, 0.2);
@@ -1009,7 +1009,7 @@ h6 {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   margin-bottom: 1.5rem;
   margin-top: 1.5rem;
 }
@@ -1020,7 +1020,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.6rem;
   margin-bottom: 1rem;
   margin-top: 1.5rem;
 }
@@ -1031,7 +1031,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   margin-bottom: 0.5rem;
   margin-top: 1.5rem;
 }
@@ -1042,7 +1042,7 @@ h3 {
 }
 
 h4 {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 @media only screen and (max-width: 768px) {
   h4 {
@@ -1905,7 +1905,7 @@ button.btn-warning-outline,
 [type=button].btn-warning-outline {
   background-color: white;
   border-color: #ffae31;
-  color: #975c00;
+  color: #643d00;
 }
 button.btn-warning-outline:hover,
 .paper-btn.btn-warning-outline:hover,
@@ -3192,7 +3192,7 @@ nav {
   width: 100%;
   z-index: 100;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
   nav {
     display: block;
   }
@@ -3246,7 +3246,7 @@ nav ul.inline li {
   display: inline-block;
   margin: 0 0.5rem;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
   nav ul.inline li {
     display: block;
     margin: 1rem 0.25rem;
@@ -3294,7 +3294,7 @@ nav .nav-brand h2 a {
   border-bottom: 0;
   font-family: "Neucha", "Noteworthy Light", sans-serif;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
   nav .collapsible {
     width: 100%;
   }
@@ -3309,7 +3309,7 @@ nav .collapsible:nth-of-type(1),
 nav .collapsible .collapsible-body {
   border: 0;
 }
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 993px) {
   nav .collapsible:nth-of-type(1),
 nav .collapsible .collapsible-body {
     display: contents;
@@ -3343,7 +3343,7 @@ nav .collapsible > label {
   right: 0;
   top: 0.2rem;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
   nav .collapsible > button,
 nav .collapsible > label {
     display: block;
