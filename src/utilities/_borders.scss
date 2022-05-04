@@ -58,8 +58,11 @@
 }
 
 @each $colorName, $color in $colors {
-  .border-#{$colorName} {
+  .border-left-#{$colorName} {
     @include color('border-left-color', #{$colorName});
     border-left-width: 8px;
+  }
+  .border-#{$colorName} {
+    @include color('border-color', #{$colorName});
   }
 }
