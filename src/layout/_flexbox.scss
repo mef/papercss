@@ -15,8 +15,14 @@ $number-columns: 12;
   display: flex;
   flex-flow: row wrap;
   margin-bottom: 1rem;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: -1rem;
+  margin-right: -1rem;
+
+  @include resp(sm) {
+    @include col-size(100%);
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+  }
 
   &.flex-right {
     justify-content: flex-end;
