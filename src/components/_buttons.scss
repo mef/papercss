@@ -73,6 +73,10 @@ a {
   }
 }
 
+a.paper-btn {
+  text-decoration: none;
+}
+
 @each $colorName, $color, $color-light, $color-text in $colors {
   button.btn-#{$colorName},
   .paper-btn.btn-#{$colorName},

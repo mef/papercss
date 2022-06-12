@@ -1781,6 +1781,10 @@ a:visited {
   color: var(--primary);
 }
 
+a.paper-btn {
+  text-decoration: none;
+}
+
 button.btn-primary,
 .paper-btn.btn-primary,
 [type=button].btn-primary {
