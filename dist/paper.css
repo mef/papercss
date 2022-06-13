@@ -493,6 +493,11 @@ html {
 .container.container-lg {
   max-width: 1200px;
 }
+@media only screen and (max-width: 1240px) {
+  .container.container-lg {
+    width: 85%;
+  }
+}
 
 .section {
   margin-bottom: 2rem;

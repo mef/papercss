@@ -32,6 +32,9 @@
 .container {
   &.container-lg {
     max-width: $large-screen;
+    @include resp(1240px) {
+      width: 85%;
+    }
   }
 }
 
