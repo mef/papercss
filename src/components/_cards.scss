@@ -30,19 +30,6 @@
     flex: 1 1 auto;
     padding: 1.25rem;
 
-    .card-title,
-    h4 {
-      margin-bottom: 0.5rem;
-      margin-top: 0;
-    }
-
-    .card-subtitle,
-    h5 {
-      color: $secondary;
-      margin-bottom: 0.5rem;
-      margin-top: 0;
-    }
-
     .card-text,
     p {
       margin-bottom: 1rem;
@@ -53,6 +40,19 @@
     a + a {
       margin-left: 1.25rem;
     }
+  }
+
+  .card-title,
+  h4 {
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+  }
+
+  .card-subtitle,
+  h5 {
+    color: $secondary;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
   }
 
   .image-top,
