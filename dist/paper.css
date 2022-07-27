@@ -3260,6 +3260,15 @@ nav .bar3 {
   transition: 0.4s;
   width: 2rem;
 }
+nav .collapsible input[id^=collapsible] + label::after {
+  content: "";
+  padding: 0;
+}
+nav .collapsible input[id^=collapsible]:checked + button::after,
+nav .collapsible input[id^=collapsible]:checked + label::after {
+  content: "";
+  padding: 0;
+}
 nav .collapsible input[id^=collapsible]:checked + button .bar1,
 nav .collapsible input[id^=collapsible]:checked + label .bar1 {
   transform: rotate(-45deg) translate(-9px, 7px);

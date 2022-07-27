@@ -24,9 +24,19 @@ nav {
     transition: 0.4s;
     width: 2rem;
   }
-
+  
+  .collapsible input[id^=collapsible] + label::after {
+    content: '';
+    padding: 0;
+  }
+    
   .collapsible input[id^=collapsible]:checked + button, // Leaving for backwards compatibility. See docs for proper usage
   .collapsible input[id^=collapsible]:checked + label {
+    &::after {
+      content: '';
+      padding: 0;
+    }
+    
     .bar1 {
       transform: rotate(-45deg) translate(-9px, 7px);
     }
@@ -38,6 +48,7 @@ nav {
     .bar3 {
       transform: rotate(45deg) translate(-8px, -9px);
     }
+    
   }
 
   &.split-nav {
