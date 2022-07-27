@@ -24,7 +24,6 @@
     "url": "https://github.com/papercss/papercss/issues"
   },
   "homepage": "https://www.getpapercss.com",
-  "dependencies": {},
   "devDependencies": {
     "autoprefixer": "^9.8.6",
     "chai": "^4.1.2",

@@ -1405,9 +1405,13 @@ table.table-alternating tbody tr:nth-of-type(even) {
   color: #41403e;
   color: var(--primary);
 }
+.collapsible > input:checked + label::after {
+  content: "^";
+  font-weight: 600;
+}
 .collapsible > input[id^=collapsible]:checked ~ div.collapsible-body {
   margin: 0;
-  max-height: 960px;
+  max-height: 100%;
   opacity: 1;
   padding: 0.75rem;
 }
@@ -1428,6 +1432,11 @@ table.table-alternating tbody tr:nth-of-type(even) {
   color: #41403e;
   color: var(--muted);
   cursor: pointer;
+}
+.collapsible > label::after {
+  content: "⌄";
+  font-weight: 600;
+  padding-left: 1rem;
 }
 
 .alert {
