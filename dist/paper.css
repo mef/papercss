@@ -529,13 +529,18 @@ hr::after {
 .paper {
   background-color: #41403e;
   background-color: var(--main-background);
-  -webkit-backdrop-filter: blur(6px);
-          backdrop-filter: blur(6px);
   border: 1px solid #c1c0bd;
   box-shadow: -1px 5px 35px -9px rgba(0, 0, 0, 0.2);
   margin-bottom: 1rem;
   margin-top: 1rem;
   padding: 2rem;
+}
+@supports ((-webkit-backdrop-filter: blur(6px)) or (backdrop-filter: blur(6px))) {
+  .paper {
+    -webkit-backdrop-filter: blur(6px);
+            backdrop-filter: blur(6px);
+    background-color: rgba(255, 255, 255, 0.7);
+  }
 }
 @media only screen and (max-width: 480px) {
   .paper {
